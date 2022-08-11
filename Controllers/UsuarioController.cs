@@ -8,7 +8,7 @@ namespace MiPrimeraApi2.Controllers
     [Route("[controller]")]
     public class UsuarioController : ControllerBase
     {
-        [HttpGet(Name = "GetUsuarios")]
+        [HttpGet(Name = "ConseguirUsuarios")]
         public List<Usuario> GetUsuarios()
         {
             return UsuarioHandler.GetUsuarios();
