@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CoderHouse\\MiPrimeraApi2\\MiPrimeraApi2.csproj": {}
+    "C:\\Users\\PC\\Documents\\CLASE CODER HOUSE\\C#\\Proyecto_final\\MiApiDeEjemplo\\MiPrimeraApi2.csproj": {}
   },
   "projects": {
-    "C:\\CoderHouse\\MiPrimeraApi2\\MiPrimeraApi2.csproj": {
+    "C:\\Users\\PC\\Documents\\CLASE CODER HOUSE\\C#\\Proyecto_final\\MiApiDeEjemplo\\MiPrimeraApi2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CoderHouse\\MiPrimeraApi2\\MiPrimeraApi2.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\CLASE CODER HOUSE\\C#\\Proyecto_final\\MiApiDeEjemplo\\MiPrimeraApi2.csproj",
         "projectName": "MiPrimeraApi2",
-        "projectPath": "C:\\CoderHouse\\MiPrimeraApi2\\MiPrimeraApi2.csproj",
-        "packagesPath": "C:\\Users\\facud\\.nuget\\packages\\",
-        "outputPath": "C:\\CoderHouse\\MiPrimeraApi2\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Documents\\CLASE CODER HOUSE\\C#\\Proyecto_final\\MiApiDeEjemplo\\MiPrimeraApi2.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\CLASE CODER HOUSE\\C#\\Proyecto_final\\MiApiDeEjemplo\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\facud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

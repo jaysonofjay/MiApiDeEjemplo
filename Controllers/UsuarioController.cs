@@ -32,11 +32,25 @@ namespace MiPrimeraApi2.Controllers
         [HttpPut]
         public bool ModificarUsuario([FromBody] PutUsuario usuario)
         {
-            return UsuarioHandler.ModificarNombreDeUsuario(new Usuario
+            try
+            { 
+                return UsuarioHandler.ModificarNombreDeUsuario(new Usuario
+                {
+                    Id = usuario.Id,
+                    Apellido = usuario.Apellido,
+                    Contraseña = usuario.Contraseña,
+                    Mail = usuario.Mail,
+                    Nombre = usuario.Nombre,
+                    NombreUsuario = usuario.NombreUsuario
+                });
+
+
+            }
+            catch (Exception ex)
             {
-                Id = usuario.Id,
-                Nombre = usuario.Nombre
-            });
+                Console.WriteLine(ex.Message);
+                return false;
+            }  
         }
 
         [HttpPost]
